@@ -1,2 +1,2 @@
 # mario
-hello world 
+hello 

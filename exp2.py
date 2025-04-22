@@ -1,0 +1,6 @@
+print("G Mario Shilshi Raj URK24CS1145")
+input_sequence =input("Enter a comma-separated sequence of words: ")
+words = input_sequence.split(',')
+unique_words = set(word.strip() for word in words)
+sorted_words = sorted (unique_words)
+print("sorted unique words:",",".join(sorted_words))
